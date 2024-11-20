@@ -11,8 +11,9 @@ Este projeto tem como objetivo realizar uma análise exploratória e preditiva d
 ```plaintext
 .
 ├── datasets/               # Arquivos de dados brutos e processados
-├── brent_oil.ipynb          # Notebook Jupyter usados para a análise
-├── README.md           # Documentação do projeto
+├── brent_oil.ipynb         # Notebook Jupyter usados para a análise
+├── LSTM.ipynb              # Treinamento do modelo LSTM
+├── README.md               # Documentação do projeto
 ```
 
 ## Tecnologias Utilizadas
@@ -21,6 +22,7 @@ Este projeto tem como objetivo realizar uma análise exploratória e preditiva d
   - pandas - Manipulação e limpeza de dados
   - matplotlib e seaborn - Visualização de dados
   - prophet - Modelagem preditiva
+  - tensorflow, keras - redes neurais LSTM
   - statsmodels - Análise estatística e de séries temporais
   - Jupyter Notebook - Documentação e análise interativa
   - Dados
